@@ -1,72 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./styles/style.css">
-  <title>Aula 2</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <a href="#" class="brand">Aula 2 - Estrutura completa HTML</a>
-      <ul class="nav-bar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Aula 2</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <a href="#">Aula 2 - Estrutura completa HTML</a>
+        <ul>
+          <li><a href="#heroes">Lista de Heroes</a></li>
+          <li><a href="#hitories">Histórias</a></li>
+          <li><a href="#about-me">Sobre mim</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article class="welcome" id="welcome">
+        <h2>
+          Olá, seja bem vindo! Aqui veremos os heroes mais divertidos para jogar
+          LoL!
+        </h2>
+      </article>
+      <aside class="updates"><h4>Últimas atulizações</h4></aside>
+    </main>
+    <div class="sessions" id="heroes">
+      <h4>Liste de heroes</h4>
+      <ul class="list">
         <li>
-          <a href="#">Lista de Heroes</a>
+          <a href="#">Rasgador de pipas</a>
+          <img class="peidao" src="./img/peidao.jpg" alt="Um homem peidando" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            eleifend consequat eros et ornare. Proin egestas lectus quis varius
+            vulputate. Proin eget risus ultrices, efficitur erat quis, auctor
+            metus. Nullam pellentesque libero urna. Duis eu ex lorem. Curabitur
+            pharetra leo et tristique varius.
+          </p>
         </li>
         <li>
-          <a href="#1">Histórias</a>
+          <a href="#">Cara da esquina</a>
+          <img class="peidao" src="./img/peidao.jpg" alt="Um homem peidando" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            eleifend consequat eros et ornare. Proin egestas lectus quis varius
+            vulputate. Proin eget risus ultrices, efficitur erat quis, auctor
+            metus. Nullam pellentesque libero urna. Duis eu ex lorem. Curabitur
+            pharetra leo et tristique varius.
+          </p>
         </li>
         <li>
-            <a href="#">Sobre mim</a>
+          <a href="#">Fedorento</a>
+          <img class="peidao" src="./img/peidao.jpg" alt="Um homem peidando" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            eleifend consequat eros et ornare. Proin egestas lectus quis varius
+            vulputate. Proin eget risus ultrices, efficitur erat quis, auctor
+            metus. Nullam pellentesque libero urna. Duis eu ex lorem. Curabitur
+            pharetra leo et tristique varius.
+          </p>
+        </li>
+        <li>
+          <a href="#">Peidão</a>
+          <img class="peidao" src="./img/peidao.jpg" alt="Um homem peidando" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            eleifend consequat eros et ornare. Proin egestas lectus quis varius
+            vulputate. Proin eget risus ultrices, efficitur erat quis, auctor
+            metus. Nullam pellentesque libero urna. Duis eu ex lorem. Curabitur
+            pharetra leo et tristique varius.
+          </p>
+        </li>
+        <li>
+          <a href="#">Cara do CS</a>
+          <img class="peidao" src="./img/peidao.jpg" alt="Um homem peidando" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            eleifend consequat eros et ornare. Proin egestas lectus quis varius
+            vulputate. Proin eget risus ultrices, efficitur erat quis, auctor
+            metus. Nullam pellentesque libero urna. Duis eu ex lorem. Curabitur
+            pharetra leo et tristique varius.
+          </p>
+        </li>
+        <li>
+          <a href="#">O Feirante</a>
+          <img class="peidao" src="./img/peidao.jpg" alt="Um homem peidando" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            eleifend consequat eros et ornare. Proin egestas lectus quis varius
+            vulputate. Proin eget risus ultrices, efficitur erat quis, auctor
+            metus. Nullam pellentesque libero urna. Duis eu ex lorem. Curabitur
+            pharetra leo et tristique varius.
+          </p>
         </li>
       </ul>
-    </nav>
-  </header>
-  <main>
-    <article class="welcome">
-      <h2>
-        Olá, seja bem vindo! Aqui veremos os heroes mais divertidos para jogar LoL!
-      </h2>
-    </article>
-    <aside class="updates">
-      <h4>Últimas atulizações</h4>
-    </aside>
-  </main>
-  <div class="sessions" id="heroes">
-    <h4>Liste de heroes</h4>
-    <ul class="list">
-      <li>
-        <a href="#">Rasgador de pipas</a>
-      </li>
-      <li>
-        <a href="#">Cara da esquina</a>
-      </li>
-      <li>
-        <a href="#">Fedorento</a>
-      </li>
-      <li>
-        <a href="#">Peidão</a>
-      </li>
-      <li>
-        <a href="#">Cara do CS</a>
-      </li>
-      <li>
-        <a href="#">O Feirante</a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="sessions" id="hitories">
-    <h4>Histórias</h4>
-  </div>
-
-  <div class="sessions" id="about-me">
-      <h4>Sobre mim</h4>
     </div>
-<footer class="footer">
-<p>Footer</p>
-</footer>
-</body>
+
+    <div class="sessions" id="hitories">
+      <h4>Histórias</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+        eleifend consequat eros et ornare. Proin egestas lectus quis varius
+        vulputate. Proin eget risus ultrices, efficitur erat quis, auctor metus.
+        Nullam pellentesque libero urna. Duis eu ex lorem. Curabitur pharetra
+        leo et tristique varius.
+      </p>
+    </div>
+
+    <div class="sessions" id="about-me">
+      <h4>Sobre mim</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+        eleifend consequat eros et ornare. Proin egestas lectus quis varius
+        vulputate. Proin eget risus ultrices, efficitur erat quis, auctor metus.
+        Nullam pellentesque libero urna. Duis eu ex lorem. Curabitur pharetra
+        leo et tristique varius.
+      </p>
+    </div>
+    <footer class="footer">
+      <p>Footer</p>
+
+      <a href="#welcome" id="btn-subir"> Clique para subir</a>
+    </footer>
+  </body>
 </html>
