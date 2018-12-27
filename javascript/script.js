@@ -15,7 +15,8 @@ welcome = "Seja bem vindo";
 
 info = "Anos de idade";
 tem = "tem";
-//document.write(name + " " + tem + " " + age + " " + info); //Exemplo de concatenação (Juntar uma variavel com outras Strings no meio)
+//document.write(name + " " + tem + " " + age + " " + info); //Exemplo de concatenação 
+//(Juntar uma variavel com outras Strings no meio)
 
 uva = 100;
 pera = 10;
@@ -28,7 +29,7 @@ morango = 5;
 //document.write(morango - limao);
 //document.write(morango * uva);
 
-document.getElementById('btn')
+document.getElementById('btn');
 
 //Atividade para fixar conteudo variaveis 
 //1- Fazer 4 variaveis com Strings, 4 variaveis com Int e 4 variaveis com Floats com o tema Natal
@@ -36,3 +37,4 @@ document.getElementById('btn')
 //3- Imprimir os resultados das variaveis e das concatenações no index.html em divs separadas
 //4- Criar um arquivo CSS para fazer os estilos das divs *Bonus = Fazer um estilo legal para pagina inteira*
 
+alert("Feliz Natal! e Seja Bem Vindo!");

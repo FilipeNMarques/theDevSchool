@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,20 +13,53 @@
     <div id="variaveis">
         <h4>Aqui estão minhas variaveis</h4>
         <script>
-            noel = "Papai Noel"
-            peru = "Peru de Natal"
-            neve = "Neve"
-            rena = "Renas"
+            noel = "Papai Noel";
+            peru = "Peru de Natal";
+            arvore = "Arvores de Natal";
+            rena = "Renas";
+            treno = "Trenó";
 
-            numNoel = 1
-            numPeru = 1
+            numNoel = 1;
+            numPeru = 1;
+            numArvore = 2;
+            numRena = 6;
+            numTreno = 1;
 
+            diariaNoel = 250.30;
+            precoPeru = 80.50;
+            precoArvore = 150.30;
+            aulturaRena = 1.60;
+
+            document.write(noel);
+            document.write("<br>");
+            document.write(peru);
+            document.write("<br>");
+            document.write(arvore);
+            document.write("<br>");
+            document.write(rena);
+            document.write("<br>");
+            document.write(treno);
+            document.write("<br>");
+            document.write("<br>");
+            document.write(`Número de ${noel}: ${numNoel}`);
+            document.write("<br>");
+            document.write(`Número de ${peru}: ${numPeru}`);
+            document.write("<br>");
+            document.write(`Número de ${arvore}: ${numArvore} `);
+            document.write("<br>");
+            document.write(`Número de ${rena}: ${numRena} `);
         </script>
     </div>
     <div id="resultados">
         <h4>Aqui estão os resultados das contaneções </h4>
         <script>
-            document.write()
+            document.write(`Essa noite, o ${noel}, vai estar com o ${peru} no shopping!`);
+            document.write("<br>");
+            document.write(`A rena tem ${aulturaRena} de altura`);
+            document.write("<br>");
+            document.write(`No Natal é muito ultilizado a ${arvore} `);
+            document.write("<br>");
+            document.write(`No natal o famoso ${noel} e seu ${treno} é conduzido pelas suas ${numRena} ${rena} `);
         </script>
     </div>
     <script src="./script.js"></script>
